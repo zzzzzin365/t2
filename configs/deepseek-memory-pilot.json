@@ -1,0 +1,14 @@
+{
+  "mode": "live",
+  "groups": ["B2", "B3", "M-Full"],
+  "split": "dev",
+  "cases_per_category": 1,
+  "history_mode": "fixed",
+  "repetitions": 1,
+  "cache_modes": ["warm"],
+  "thinking_mode": "disabled",
+  "max_output_tokens": 1200,
+  "max_requests": 250,
+  "max_tokens": 500000,
+  "output_dir": "artifacts/deepseek-memory-pilot"
+}

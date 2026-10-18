@@ -1,0 +1,52 @@
+{
+  "created_at": "20260919T125601751916Z",
+  "config": {
+    "groups": [
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "M-Full"
+    ],
+    "mode": "live",
+    "split": "test",
+    "cases_per_category": 3,
+    "repetitions": 3,
+    "seed": 42,
+    "cache_modes": [
+      "warm"
+    ],
+    "output_dir": "artifacts/deepseek-validation-21",
+    "max_iterations": 1,
+    "observation_seconds": 60,
+    "cache_ttl_seconds": 120,
+    "memory_top_k": 5,
+    "memory_token_budget": 2000,
+    "context_token_limit": 16000,
+    "max_output_tokens": 1200,
+    "max_requests": 4500,
+    "max_tokens": 9000000,
+    "timeout_seconds": 30,
+    "temperature": 0,
+    "thinking_mode": "disabled",
+    "input_price_per_million": null,
+    "output_price_per_million": null,
+    "history_mode": "end_to_end"
+  },
+  "scenario_version": "synthetic-v1",
+  "frozen_dataset": true,
+  "dataset_sha256": "a5635b853ab103f29537a1d224d8464ca50f7d846732d08b6f98751abfc0ffec",
+  "code_sha256": "000daccdb2657512a796166bcc477920d5173d13f4f0a8afa14686e7e8a1561e",
+  "prompt_version": "4688b71df5d3d809dad8cf3ac6cb1898fd5b41fb61145d4a07b490a4bd10395f",
+  "python": "3.12.14",
+  "packages": {
+    "langgraph": "1.2.11",
+    "pydantic": "2.13.5",
+    "httpx": "0.28.1",
+    "tiktoken": "0.14.0"
+  },
+  "model": "deepseek-flash",
+  "base_url": "https://api.deepseek.com",
+  "tokenizer_estimate": "cl100k_base",
+  "upstream_commit": "04c5750a727f993617d368980a5b7937008d6226"
+}

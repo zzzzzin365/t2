@@ -1,0 +1,8 @@
+{
+  "mode": "offline",
+  "split": "dev",
+  "cases_per_category": 1,
+  "repetitions": 1,
+  "cache_modes": ["cold", "warm"],
+  "output_dir": "artifacts/offline-smoke"
+}

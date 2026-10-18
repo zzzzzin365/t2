@@ -1,0 +1,12 @@
+{
+  "mode": "live",
+  "split": "dev",
+  "cases_per_category": 1,
+  "repetitions": 1,
+  "cache_modes": ["warm"],
+  "thinking_mode": "disabled",
+  "max_output_tokens": 1200,
+  "max_requests": 500,
+  "max_tokens": 1000000,
+  "output_dir": "artifacts/deepseek-pilot"
+}

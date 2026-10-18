@@ -1,0 +1,25 @@
+name: Python validation
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: python
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: python/requirements-benchmark.lock.txt
+      - run: python -m pip install -r python/requirements.txt
+      - run: python -m pip check
+      - run: python -m pytest -q
+      - run: python -m src.benchmark validate --config configs/offline-test.json
+      - run: python scripts/verify-experiment.py --run-dir results/validation-21

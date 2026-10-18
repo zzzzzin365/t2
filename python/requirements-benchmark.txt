@@ -1,0 +1,7 @@
+# Direct dependencies; install requirements-benchmark.lock.txt for exact reproducibility.
+langgraph==1.2.11
+pydantic==2.13.5
+httpx==0.28.1
+tiktoken==0.14.0
+python-dotenv==1.2.3
+pytest==9.1.1

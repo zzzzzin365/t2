@@ -1,0 +1,13 @@
+{
+  "mode": "live",
+  "split": "test",
+  "cases_per_category": 3,
+  "repetitions": 3,
+  "groups": ["B0", "B1", "B2", "B3", "M-Full"],
+  "cache_modes": ["warm"],
+  "thinking_mode": "disabled",
+  "max_output_tokens": 1200,
+  "max_requests": 4500,
+  "max_tokens": 9000000,
+  "output_dir": "artifacts/deepseek-validation-21"
+}

@@ -1,0 +1,11 @@
+{
+  "mode": "live",
+  "split": "test",
+  "repetitions": 3,
+  "cache_modes": ["cold", "warm"],
+  "thinking_mode": "disabled",
+  "max_output_tokens": 1200,
+  "max_requests": 50000,
+  "max_tokens": 50000000,
+  "output_dir": "artifacts/deepseek-test"
+}

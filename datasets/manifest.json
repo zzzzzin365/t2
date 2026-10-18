@@ -1,0 +1,12 @@
+{
+  "version": "synthetic-v1",
+  "seed": 42,
+  "dev": {
+    "cases": 70,
+    "sha256": "56a4714012119e77fe08cbdcd4de1557fcaae961214277c5f60835d965bed59b"
+  },
+  "test": {
+    "cases": 210,
+    "sha256": "7fc31193d6c5bf79eaa286c273a7814d403b5e33e46148c08edaf9fdaea3458e"
+  }
+}

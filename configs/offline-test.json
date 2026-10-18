@@ -1,0 +1,6 @@
+{
+  "mode": "offline",
+  "split": "test",
+  "repetitions": 1,
+  "output_dir": "artifacts/offline-test"
+}

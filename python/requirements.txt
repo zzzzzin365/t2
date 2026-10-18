@@ -1,0 +1,2 @@
+# Python runtime and test dependencies, pinned for reproducibility.
+-r requirements-benchmark.lock.txt

@@ -1,0 +1,16 @@
+{
+  "verified": true,
+  "independent_cases": 21,
+  "jobs": 315,
+  "jobs_by_group": {
+    "B0": 63,
+    "B3": 63,
+    "B2": 63,
+    "B1": 63,
+    "M-Full": 63
+  },
+  "llm_requests": 1849,
+  "input_tokens": 573768,
+  "output_tokens": 398795,
+  "errors": []
+}
